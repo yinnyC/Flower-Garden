@@ -13,7 +13,7 @@ class jerryDraw:
   def jerryPickColor(self):
     """ Randomly pick a color for jerry"""
     jerry.colormode(255)
-    jerry.pencolor((randint(0,256),randint(0,256),randint(0,256)))
+    jerry.pencolor((randint(0,255),randint(0,255),randint(0,255)))
   def jerryMove(self):
     """ Lift the jerry and change position then put jerry back down """
     jerry.up()
